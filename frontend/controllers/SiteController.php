@@ -19,6 +19,7 @@ use backend\models\Feedback;
 use yii\widgets\ActiveForm;
 use backend\models\Visitors;
 use phpDocumentor\Reflection\DocBlock\Tags\Var_;
+use backend\models\Categories;
 
 /**
  * Site controller
@@ -147,9 +148,13 @@ class SiteController extends Controller
 		}
 	}
 
-	public function actionProjects()
+	public function actionCategories()
 	{
-		return $this->render('projects', []);
+		$categories = new Categories();
+		$categories = $categories->find()->asArray()->all();
+		return $this->render('categories', [
+			'categories' => $categories
+		]);
 	}
 
 	/**

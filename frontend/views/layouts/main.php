@@ -47,7 +47,7 @@ AppAsset::register($this);
 							<a class="nav-link" href="/about">О нас</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/projects">Каталог</a>
+							<a class="nav-link" href="/categories">Каталог</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Услуги</a>

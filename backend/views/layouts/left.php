@@ -31,6 +31,7 @@
 					['label' => 'Меню', 'options' => ['class' => 'header']],
 					['label' => 'Сообщения', 'icon' => 'envelope', 'url' => ['/feedback']],
 					['label' => 'Пользователи', 'icon' => 'users', 'url' => ['/users']],
+					['label' => 'Категории', 'icon' => 'fa fa-file-text-o', 'url' => ['/categories']],
 					['label' => 'Посетители сайта', 'icon' => 'eye', 'url' => ['/visitors']],
 					['label' => 'Меню разработчика', 'options' => ['class' => 'header']],
 					                    ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],

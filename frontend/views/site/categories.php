@@ -17,7 +17,7 @@
 
 
 <section class="section border-t">
-		<div class="container">
+	<div class="container">
 		<div class="row justify-content-center mb-5 element-animate">
 			<div class="col-md-8 text-center">
 				<h2 class="heading mb-4">Категории</h2>
@@ -25,37 +25,22 @@
 			</div>
 		</div>
 	</div>
+	<img src="<?php \Yii::$app->imagemanager->getImagePath(6, 700, 700, 'inset') ?>"></img>
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-md-4 element-animate">
-				<a href="project-single.html" class="link-thumbnail">
-					<h3>Запасные части для дробильного оборудования и карьерной техники</h3>
-					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_1.jpg" alt="Image" class="img-fluid">
-				</a>
-			</div>
-			<div class="col-md-4 element-animate">
-				<a href="project-single.html" class="link-thumbnail">
-					<h3>Коксохимическое производство и металлургия</h3>
-					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_2.jpg" alt="Image" class="img-fluid">
-				</a>
-			</div>
-			<div class="col-md-4 element-animate">
-				<a href="project-single.html" class="link-thumbnail">
-					<h3>Литье стали и чугуна</h3>
-					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_3.jpg" alt="Image" class="img-fluid">
-				</a>
-			</div>
-			<div class="col-md-4 element-animate">
-				<a href="project-single.html" class="link-thumbnail">
-					<h3>
-						Общепромышленное оборудование</h3>
-					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_4.jpg" alt="Image" class="img-fluid">
-				</a>
-			</div>
+			<?php
+			foreach ($categories as $category) { ?>
+				<div class="col-md-4 element-animate">
+					<a href="/categories/<?= $category['slug'] ?>" class="link-thumbnail">
+						<h3><?= $category['name'] ?></h3>
+						<span class="ion-plus icon"></span>
+						<img src="<?= \Yii::$app->imagemanager->getImagePath($category['img'], 700, 700, 'outbound') ?>" alt="Image" class="img-fluid">
+					</a>
+				</div>
+			<?php
+			}
+			?>
+
 			<!-- <div class="col-md-4 element-animate">
 				<a href="project-single.html" class="link-thumbnail">
 					<h3>Intercate Custom</h3>
