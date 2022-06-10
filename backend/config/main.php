@@ -25,7 +25,7 @@ return [
 			'setBlameableBehavior' => false,
 			//add css files (to use in media manage selector iframe)
 			'cssFiles' => [
-				'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css',
+				'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css',
 			],
 		],
 	],

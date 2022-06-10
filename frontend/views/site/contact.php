@@ -1,6 +1,6 @@
 <div class="top-shadow"></div>
 <div class="inner-page">
-	<div class="slider-item" style="background-image: url('frontend/web/img/frontend/industrial_hero_3.jpg');">
+	<div class="slider-item" style="background-image: url('/frontend/web/img/frontend/factory2.jpg');">
 
 		<div class="container">
 			<div class="row slider-text align-items-center justify-content-center">
@@ -90,14 +90,3 @@
 		</div>
 	</div>
 </section>
-
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/main.js"></script>
-
-<script src="js/main.js"></script>

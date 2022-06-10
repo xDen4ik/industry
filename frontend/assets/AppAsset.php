@@ -21,6 +21,13 @@ class AppAsset extends AssetBundle
 		'css/style.css',
 	];
 	public $js = [
+		'js/jquery-3.2.1.min.js',
+		'js/popper.min.js',
+		'js/bootstrap.min.js',
+		'js/owl.carousel.min.js',
+		'js/jquery.waypoints.min.js',
+		'js/jquery.fancybox.min.js',
+		'js/main.js',
 	];
 	public $depends = [
 		//'yii\web\YiiAsset',

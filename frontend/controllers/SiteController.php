@@ -148,15 +148,6 @@ class SiteController extends Controller
 		}
 	}
 
-	public function actionCategories()
-	{
-		$categories = new Categories();
-		$categories = $categories->find()->asArray()->all();
-		return $this->render('categories', [
-			'categories' => $categories
-		]);
-	}
-
 	/**
 	 * Displays about page.
 	 *

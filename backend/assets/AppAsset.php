@@ -13,6 +13,7 @@ class AppAsset extends AssetBundle
 	public $baseUrl = '@web';
 	public $css = [
 		'css/site.css',
+		'css/fontawesome.css'
 	];
 	public $js = [
 	];
@@ -30,6 +31,7 @@ class AppAsset extends AssetBundle
 		if (\yii::$app->request->url !== '/admin/login') {
 			$this->js[] = 'js/time.js';
 			$this->js[] = 'js/get_message.js';
+			$this->js[] = 'js/fontawesome.js';
 		}
 	}
 }

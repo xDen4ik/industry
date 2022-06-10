@@ -100,16 +100,19 @@ return [
 		'urlManager' => [
 			'enablePrettyUrl' => true,
 			'showScriptName' => false,
+			'enableStrictParsing' => false,
 			'rules' => [
 				'' => 'site/index',
-				'index' => 'site/index',
-				'contact' => 'site/contact',
-				'categories' => 'site/categories',
-				'about' => 'site/about',
-				'site/<controller:\w+>/<action:\w+>' => '<controller>/<action>',
-				'<controller:\w+>/<id:\d+>' => '<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
-				'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+				'error' => 'site/error',
+				'<action:(contact|about)>' => 'site/<action>',
+				/* 'categories/<page:\w+>' => 'categories/category', //пагинация для статей
+				'categories' => 'categories/index', */
+
+				/* 'categories' => 'categories/index', //статьи */
+				/* 'categories/<category:[\w\-]*>' => 'categories/category', */
+				'categories/<action:\d+>' => 'categories/category',
+				'categories/<action:[a-z-]+>' => 'categories/<action>',
+				'categories/<action:[a-z-]+>' => 'categories/category',
 			],
 		],
 	],

@@ -21,6 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
 		width: 75%;
 	}
 </style>
+
 <div class="categories-view">
 
 	<h1><?= Html::encode($this->title) ?></h1>

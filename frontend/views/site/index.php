@@ -7,7 +7,7 @@ use yii\helpers\Url;
 <div class="top-shadow"></div>
 
 <section class="home-slider owl-carousel">
-	<div class="slider-item" style="background-image: url('frontend/web/img/frontend/factory2.jpg');">
+	<div class="slider-item" style="background-image: url('/frontend/web/img/frontend/factory2.jpg');">
 		<div class="container">
 			<div class="row slider-text align-items-center justify-content-center">
 				<div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -21,7 +21,7 @@ use yii\helpers\Url;
 		</div>
 	</div>
 
-	<!-- <div class="slider-item" style="background-image: url('frontend/web/img/frontend/factory3.jpg');">
+	<!-- <div class="slider-item" style="background-image: url('/frontend/web/img/frontend/factory3.jpg');">
 		<div class="container">
 			<div class="row slider-text align-items-center justify-content-center">
 				<div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -47,7 +47,7 @@ use yii\helpers\Url;
 			<div class="col-lg-4 order-lg-2">
 				<div class="scaling-image h-100">
 					<div class="frame h-100">
-						<div class="feature-img-bg h-100" style="background-image: url('frontend/web/img/frontend/industrial_feature_1.jpg');"></div>
+						<div class="feature-img-bg h-100" style="background-image: url('/frontend/web/img/frontend/industrial_feature_1.jpg');"></div>
 					</div>
 				</div>
 			</div>
@@ -137,7 +137,7 @@ use yii\helpers\Url;
 		<div class="row align-items-center mb-5">
 			<div class="col-lg-7 order-md-2">
 				<div class="scaling-image">
-					<div class="frame"><img src="frontend/web/img/frontend/industrial_featured_img_1.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div>
+					<div class="frame"><img src="/frontend/web/img/frontend/industrial_featured_img_1.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div>
 				</div>
 			</div>
 			<div class="col-md-5 pr-md-5 mb-5">
@@ -159,7 +159,7 @@ use yii\helpers\Url;
 		<div class="row align-items-center mb-5">
 			<div class="col-lg-7 order-md-1">
 				<div class="scaling-image">
-					<div class="frame"><img src="frontend/web/img/frontend/industrial_featured_img_2.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div>
+					<div class="frame"><img src="/frontend/web/img/frontend/industrial_featured_img_2.jpg" alt="Free template by Free-Template.co" class="img-fluid"></div>
 				</div>
 			</div>
 			<div class="col-md-5 pl-md-5 mb-5 order-md-2">
@@ -192,42 +192,42 @@ use yii\helpers\Url;
 				<a href="project-single.html" class="link-thumbnail">
 					<h3>Деталька #1</h3>
 					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_1.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+					<img src="/frontend/web/img/frontend/industrial_img_1.jpg" alt="Free template by Free-Template.co" class="img-fluid">
 				</a>
 			</div>
 			<div class="col-md-4 element-animate">
 				<a href="project-single.html" class="link-thumbnail">
 					<h3>Деталька #2</h3>
 					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_2.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+					<img src="/frontend/web/img/frontend/industrial_img_2.jpg" alt="Free template by Free-Template.co" class="img-fluid">
 				</a>
 			</div>
 			<div class="col-md-4 element-animate">
 				<a href="project-single.html" class="link-thumbnail">
 					<h3>Деталька #3</h3>
 					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_3.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+					<img src="/frontend/web/img/frontend/industrial_img_3.jpg" alt="Free template by Free-Template.co" class="img-fluid">
 				</a>
 			</div>
 			<div class="col-md-4 element-animate">
 				<a href="project-single.html" class="link-thumbnail">
 					<h3>Деталька #4</h3>
 					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_4.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+					<img src="/frontend/web/img/frontend/industrial_img_4.jpg" alt="Free template by Free-Template.co" class="img-fluid">
 				</a>
 			</div>
 			<div class="col-md-4 element-animate">
 				<a href="project-single.html" class="link-thumbnail">
 					<h3>Деталька #5</h3>
 					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_5.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+					<img src="/frontend/web/img/frontend/industrial_img_5.jpg" alt="Free template by Free-Template.co" class="img-fluid">
 				</a>
 			</div>
 			<div class="col-md-4 element-animate">
 				<a href="project-single.html" class="link-thumbnail">
 					<h3>Деталька #6</h3>
 					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_6.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+					<img src="/frontend/web/img/frontend/industrial_img_6.jpg" alt="Free template by Free-Template.co" class="img-fluid">
 				</a>
 			</div>
 		</div>
@@ -247,7 +247,7 @@ use yii\helpers\Url;
 			<div class="item">
 				<div class="block-33 h-20">
 					<div class="vcard d-flex mb-3">
-						<div class="image align-self-center"><img src="frontend/web/img/frontend/person_3.jpg" alt="Person here"></div>
+						<div class="image align-self-center"><img src="/frontend/web/img/frontend/person_3.jpg" alt="Person here"></div>
 						<div class="name-text align-self-center">
 							<h2 class="heading">Севрюк</h2>
 							<span class="meta">ООО Цех в Макеевке</span>
@@ -264,7 +264,7 @@ use yii\helpers\Url;
 			<div class="item">
 				<div class="block-33 h-20">
 					<div class="vcard d-flex mb-3">
-						<div class="image align-self-center"><img src="frontend/web/img/frontend/person.jpg" alt="Person here"></div>
+						<div class="image align-self-center"><img src="/frontend/web/img/frontend/person.jpg" alt="Person here"></div>
 						<div class="name-text align-self-center">
 							<h2 class="heading">Денис Пача</h2>
 							<span class="meta">ООО Denis Pacha</span>
@@ -281,7 +281,7 @@ use yii\helpers\Url;
 			<div class="item">
 				<div class="block-33 h-20">
 					<div class="vcard d-flex mb-3">
-						<div class="image align-self-center"><img src="frontend/web/img/frontend/person_3.jpg" alt="Person here"></div>
+						<div class="image align-self-center"><img src="/frontend/web/img/frontend/person_3.jpg" alt="Person here"></div>
 						<div class="name-text align-self-center">
 							<h2 class="heading">Левый чел</h2>
 							<span class="meta">ООО с России</span>
@@ -298,7 +298,7 @@ use yii\helpers\Url;
 			<div class="item">
 				<div class="block-33 h-20">
 					<div class="vcard d-flex mb-3">
-						<div class="image align-self-center"><img src="frontend/web/img/frontend/person_3.jpg" alt="Person here"></div>
+						<div class="image align-self-center"><img src="/frontend/web/img/frontend/person_3.jpg" alt="Person here"></div>
 						<div class="name-text align-self-center">
 							<h2 class="heading">Барабашка</h2>
 							<span class="meta">Клиент</span>
@@ -331,14 +331,3 @@ use yii\helpers\Url;
 		</div>
 	</div>
 </section>
-
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<!-- <script src="js/bootstrap.min.js"></script> -->
-<script src="js/owl.carousel.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/main.js"></script>
-
-<script src="js/main.js"></script>

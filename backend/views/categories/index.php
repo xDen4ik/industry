@@ -30,8 +30,16 @@ $this->params['breadcrumbs'][] = $this->title;
             'name',
             'description:ntext',
             'slug',
-            'img',
+			[
+				'attribute' => 'img',
+				'contentOptions' => ['style' => 'width:15%; white-space: normal;'],
+				'filter' => '',
+				'format' => ['image', ['width' => '100', 'height' => '100']],
+				'value' => function ($model) {
+					return Yii::$app->imagemanager->getImagePath($model->img, 100, 100, 'inset');
+				},
 
+			],
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>

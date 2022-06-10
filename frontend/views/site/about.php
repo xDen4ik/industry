@@ -1,7 +1,7 @@
 <div class="top-shadow"></div>
 
 <div class="inner-page">
-	<div class="slider-item" style="background-image: url('frontend/web/img/frontend/industrial_hero_3.jpg');">
+	<div class="slider-item" style="background-image: url('/frontend/web/img/frontend/factory2.jpg');">
 
 		<div class="container">
 			<div class="row slider-text align-items-center justify-content-center">
@@ -17,7 +17,7 @@
 
 <section>
 	<div class="half d-lg-flex d-block">
-		<div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('frontend/web/img/frontend/industrial_hero_1.jpg')"></div>
+		<div class="image element-animate" data-animate-effect="fadeIn" style="background-image: url('/frontend/web/img/frontend/industrial_hero_1.jpg')"></div>
 		<div class="text text-center element-animate">
 			<h3 class="mb-4">Our Mission</h3>
 			<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -26,7 +26,7 @@
 	</div>
 
 	<div class="half d-lg-flex d-block">
-		<div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('frontend/web/img/frontend/industrial_hero_2.jpg')"></div>
+		<div class="image order-2 element-animate" data-animate-effect="fadeIn" style="background-image: url('/frontend/web/img/frontend/industrial_hero_2.jpg')"></div>
 		<div class="text text-center element-animate">
 			<h3 class="mb-4">Company History</h3>
 			<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -86,7 +86,7 @@
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="media d-block media-custom text-center">
-					<a href="#"><img src="frontend/web/img/frontend/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
+					<a href="#"><img src="/frontend/web/img/frontend/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
 					<div class="media-body">
 						<h3 class="mt-0 text-black">Mellisa Howard</h3>
 					</div>
@@ -94,7 +94,7 @@
 			</div>
 			<div class="col-lg-3">
 				<div class="media d-block media-custom text-center">
-					<a href="#"><img src="frontend/web/img/frontend/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
+					<a href="#"><img src="/frontend/web/img/frontend/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
 					<div class="media-body">
 						<h3 class="mt-0 text-black">Mike Richardson</h3>
 					</div>
@@ -102,7 +102,7 @@
 			</div>
 			<div class="col-lg-3">
 				<div class="media d-block media-custom text-center">
-					<a href="#"><img src="frontend/web/img/frontend/person_4.jpg" alt="Image Placeholder" class="img-fluid"></a>
+					<a href="#"><img src="/frontend/web/img/frontend/person_4.jpg" alt="Image Placeholder" class="img-fluid"></a>
 					<div class="media-body">
 						<h3 class="mt-0 text-black">Laura Smith</h3>
 					</div>
@@ -110,7 +110,7 @@
 			</div>
 			<div class="col-lg-3">
 				<div class="media d-block media-custom text-center">
-					<a href="#"><img src="frontend/web/img/frontend/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
+					<a href="#"><img src="/frontend/web/img/frontend/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
 					<div class="media-body">
 						<h3 class="mt-0 text-black">Kevin Gold</h3>
 					</div>
@@ -135,13 +135,3 @@
 		</div>
 	</div>
 </section>
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/main.js"></script>
-
-<script src="js/main.js"></script>

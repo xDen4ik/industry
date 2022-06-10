@@ -1,7 +1,11 @@
+<?php
+use yii\helpers\Url;
+?>
+
 <div class="top-shadow"></div>
 
 <div class="inner-page">
-	<div class="slider-item" style="background-image: url('frontend/web/img/frontend/industrial_hero_1.jpg');">
+	<div class="slider-item" style="background-image: url('/frontend/web/img/frontend/factory2.jpg');">
 
 		<div class="container">
 			<div class="row slider-text align-items-center justify-content-center">
@@ -15,7 +19,6 @@
 	</div>
 </div>
 
-
 <section class="section border-t">
 	<div class="container">
 		<div class="row justify-content-center mb-5 element-animate">
@@ -25,12 +28,13 @@
 			</div>
 		</div>
 	</div>
-	<img src="<?php \Yii::$app->imagemanager->getImagePath(6, 700, 700, 'inset') ?>"></img>
+
 	<div class="container">
 		<div class="row no-gutters">
 			<?php
 			foreach ($categories as $category) { ?>
 				<div class="col-md-4 element-animate">
+					
 					<a href="/categories/<?= $category['slug'] ?>" class="link-thumbnail">
 						<h3><?= $category['name'] ?></h3>
 						<span class="ion-plus icon"></span>
@@ -40,14 +44,6 @@
 			<?php
 			}
 			?>
-
-			<!-- <div class="col-md-4 element-animate">
-				<a href="project-single.html" class="link-thumbnail">
-					<h3>Intercate Custom</h3>
-					<span class="ion-plus icon"></span>
-					<img src="frontend/web/img/frontend/industrial_img_5.jpg" alt="Image" class="img-fluid">
-				</a>
-			</div> -->
 		</div>
 
 	</div>
@@ -67,14 +63,3 @@
 		</div>
 	</div>
 </section>
-
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/main.js"></script>
-
-<script src="js/main.js"></script>
